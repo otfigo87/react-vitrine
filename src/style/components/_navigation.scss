@@ -54,7 +54,7 @@
       opacity: 1;
 
       li {
-        transform: rotatey(0deg)
+        transform: rotate(0deg)
       }
     }
 
@@ -69,7 +69,7 @@
       perspective: 500px;
 
       li {
-        transform: rotatey(30deg) scaleX(1.2);
+        transform: rotate(30deg) scaleX(1.2);
         transform-origin: center;
         transition: .3s;
       }

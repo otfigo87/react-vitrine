@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Navigation from '../components/Navigation';
+import Mouse from '../components/Mouse';
+import SocialMedia from '../components/SocialMedia';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Mouse />
+      <Navigation />
+      <SocialMedia />
+    </div>
   )
 }
 
