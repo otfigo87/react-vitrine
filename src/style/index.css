@@ -114,6 +114,7 @@ main {
   cursor: pointer;
   display: flex;
   transition: 0.5s;
+  color: rgb(141, 141, 141);
 }
 .navigation .nav-portfolio:hover .nav-projects,
 .navigation .nav-portfolio .nav-projects:hover {
@@ -270,6 +271,9 @@ main {
 .social-network ul a {
   padding: 1rem;
   transition: 1.1s ease-out;
+}
+.social-network ul a:hover {
+  color: black;
 }
 
 .scroll-bottom a {

@@ -22,6 +22,9 @@
     a {
       padding: 1rem;
       transition: 1.1s ease-out;
+      &:hover{
+        color: black;
+      }
     }
   }
 }
