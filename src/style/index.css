@@ -85,7 +85,7 @@ main {
   top: -150px;
   left: -160px;
   z-index: -1;
-  animation: navAnim 20s infinite alternate;
+  animation: navAnim 17s infinite alternate;
 }
 @keyframes navAnim {
   50% {
@@ -214,7 +214,7 @@ main {
   top: -40px;
   left: -180px;
   z-index: -1;
-  animation: h1Anim 1.5s forwards ease;
+  animation: h1Anim 5s forwards ease;
   transform: scale(0);
 }
 @media screen and (max-width: 850px) {

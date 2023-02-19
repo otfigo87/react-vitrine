@@ -4,7 +4,7 @@ const DynamicText = () => {
 
     useEffect(() => {
         const target = document.getElementById("text-target");
-        let array = ["simple", "clear", "smart", "strong"];
+        let array = ["simple", "clear", "smart", "creative"];
         let wordIndex = 0;
         let letterIndex = 0;
 
@@ -33,11 +33,13 @@ const DynamicText = () => {
                 } else {
                   letterIndex = 0;
                   wordIndex++;
-                  setTimeout(loop, 2000);
+                  setTimeout(loop, 2500);
                 }
               }, 80);
             }
-            loop();
+
+    loop();
+
     }, [])
 
   return (
