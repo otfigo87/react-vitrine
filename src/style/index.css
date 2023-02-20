@@ -279,7 +279,7 @@ main {
 .scroll-bottom a {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 60%;
   font-size: 3rem;
   color: rgb(184, 183, 183);
   transition: 0.25s;
@@ -289,7 +289,7 @@ main {
   padding: 0 14px;
 }
 .scroll-bottom a:hover {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 .scroll-bottom .left {
   left: 15px;
@@ -584,6 +584,9 @@ main {
      -moz-user-select: none;
           user-select: none;
 }
+.logo:hover {
+  font-size: 1.5rem;
+}
 .logo:after {
   content: "";
   height: 24px;
@@ -627,7 +630,7 @@ main {
 .project .navigation {
   top: 5px;
   left: 60%;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 20px;
   transform: translateY(-100%);
   animation: navProject 1s ease forwards;
@@ -652,7 +655,7 @@ main {
 }
 .project .logo {
   top: 10px;
-  left: 50%;
+  left: 5%;
   transform: translateX(-50%);
   transform: scale(0);
   animation: logoProject 2s ease forwards;
@@ -755,6 +758,7 @@ main {
 }
 .project .project-main .project-content li {
   font-size: 1.5rem;
+  color: rgb(54, 53, 53);
 }
 @media screen and (max-width: 700px) {
   .project .project-main .project-content li {
@@ -851,6 +855,7 @@ main {
   justify-content: center;
   color: #fafeff;
   background: #00c1ec;
+  width: 170px;
 }
 @media screen and (max-width: 410px) {
   .project .button-container a .button {

@@ -28,7 +28,7 @@
   .navigation {
     top: 5px;
     left: 60%;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 20px;
     transform: translateY(-100%);
     animation: navProject 1s ease forwards;
@@ -55,7 +55,7 @@
   }
   .logo {
     top: 10px;
-    left: 50%;
+    left: 5%;
     transform: translateX(-50%);
     transform: scale(0);
     animation: logoProject 2s ease forwards;
@@ -148,6 +148,7 @@
       }
       li {
         font-size: 1.5rem;
+        color:rgb(54, 53, 53);
 
         @media screen and (max-width: 700px){
           font-size: 1.1rem;
@@ -205,7 +206,7 @@
           position: relative;
 
           &:hover,
-          span:hover img {
+          span:hover img{
             transform: scale(1.2);
             filter: opacity(15%) contrast(150%);
           }
@@ -241,6 +242,7 @@
         justify-content: center;
         color: $color-1;
         background: $color-2;
+        width: 170px;
 
         @media screen and (max-width: 410px){
           width: 100px;

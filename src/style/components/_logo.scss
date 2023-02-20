@@ -3,6 +3,9 @@
   font-family: $font-2;
   font-size: 1.2rem;
   user-select: none;
+  &:hover{
+    font-size: 1.5rem;
+  }
 
   &:after {
     content: "";
