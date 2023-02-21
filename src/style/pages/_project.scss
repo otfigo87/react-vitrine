@@ -191,8 +191,8 @@
 
         &:hover span,
         span:hover {
-          visibility: visible;
-          transform: translateY(0);
+            visibility: visible;
+            transform: translateY(0); 
         }
 
         img {
@@ -208,7 +208,7 @@
           &:hover,
           span:hover img{
             transform: scale(1.2);
-            filter: opacity(15%) contrast(150%);
+            filter: opacity(10%) contrast(150%);
           }
         }
         span {
@@ -224,10 +224,17 @@
           transition: 0.5s ease;
           transform: translateY(200px);
 
+          @media screen and (max-width: 540px){
+            font-size: 1rem;
+            line-height: 20px;
+
+          }
+          
           h3 {
             padding-bottom: 10px;
             color: rgb(2, 121, 148);
           }
+
         }
       }
     }
