@@ -21,9 +21,6 @@
       top: 520px;
       right: -140px;
     }
-    @media screen and (max-width: 430px) {
-      display: none;
-    }
 
     @keyframes contactAnim {
       50% {
@@ -40,7 +37,7 @@
     }
   }
   .logo {
-    top: 8px;
+    top: 15px;
     right: 1rem;
   }
 
@@ -67,7 +64,7 @@
         border-radius: 50%;
         position: absolute;
         top: -22px;
-        left: 133px;
+        left: 80px;
         z-index: -1;
       }
     }
@@ -95,7 +92,7 @@
     textarea {
       resize: none;
       padding: 6px 0;
-      height: 70px;
+      height: 75px;
 
       @media screen and (max-width: 540px) {
         width: 75%;

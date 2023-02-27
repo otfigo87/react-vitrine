@@ -323,11 +323,6 @@ main {
     right: -140px;
   }
 }
-@media screen and (max-width: 430px) {
-  .contact:after {
-    display: none;
-  }
-}
 @keyframes contactAnim {
   50% {
     transform: scale(1.4);
@@ -342,7 +337,7 @@ main {
   }
 }
 .contact .logo {
-  top: 8px;
+  top: 15px;
   right: 1rem;
 }
 .contact .form-container {
@@ -372,7 +367,7 @@ main {
   border-radius: 50%;
   position: absolute;
   top: -22px;
-  left: 133px;
+  left: 80px;
   z-index: -1;
 }
 .contact .form-container .form-content {
@@ -399,7 +394,7 @@ main {
 .contact .form-container textarea {
   resize: none;
   padding: 6px 0;
-  height: 70px;
+  height: 75px;
 }
 @media screen and (max-width: 540px) {
   .contact .form-container textarea {

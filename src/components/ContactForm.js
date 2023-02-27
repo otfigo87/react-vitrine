@@ -21,14 +21,14 @@ const ContactForm = () => {
         (result) => {
           console.log(result.text);
           form.current.reset();
-          formMess.innerHTML = "<p class='success'>Message Sent !</p>";
+          formMess.innerHTML = "<p className='success'>Message Sent !</p>";
           setTimeout(() => {
             formMess.innerHTML = "";
           }, 2500)
         },
         (error) => {
           console.log(error.text);
-          formMess.innerHTML = "<p class='error'>Error! Please try again<p/>";
+          formMess.innerHTML = "<p className='error'>Error! Please try again<p/>";
           setTimeout(() => {
             formMess.innerHTML = "";
           }, 2500);

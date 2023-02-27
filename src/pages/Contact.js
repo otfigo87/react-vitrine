@@ -6,12 +6,28 @@ import ContactForm from '../components/ContactForm';
 import SocialMedia from "../components/SocialMedia";
 import Buttons from "../components/Buttons";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { motion } from 'framer-motion'
 
 const Contact = () => {
+  //framer-motion
+  const pageTrans = {
+    in : {
+      opacity: 1,
+      x: 0
+    },
+    out: {
+      opacity: 0,
+      x: 200
+    }
+  }
   return (
     <main>
       <Mouse />
-      <div className="contact">
+      <motion.div className="contact"
+         initial="out" exit="out" 
+         animate="in" variants={pageTrans}
+         transition={{duration: 0.5}}
+      >
         <Navigation />
         <Logo />
         <ContactForm />
@@ -19,7 +35,6 @@ const Contact = () => {
           <div className="address">
             <div className="content">
               <h4>Address</h4>
-              <p>1200 Laplace Blvd</p>
               <p>Pittsburgh, PA 15222</p>
             </div>
           </div>
@@ -57,7 +72,7 @@ const Contact = () => {
           </div>
         </div>
         <Buttons left={"/project4"} />
-      </div>
+      </motion.div>
     </main>
   );
 }
