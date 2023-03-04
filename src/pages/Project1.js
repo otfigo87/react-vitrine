@@ -12,11 +12,11 @@ const Project1 = () => {
       <div className="project">
         <Navigation />
         <Logo />
-        <Project projectNumber={0}/>
+        <Project projectNumber={0} />
         <Buttons left={"/"} right={"/project2"} />
       </div>
     </main>
-  )
+  );
 }
 
 export default Project1

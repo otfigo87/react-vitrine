@@ -244,6 +244,12 @@ main {
     font-size: 5rem;
   }
 }
+.home .credits {
+  position: absolute;
+  right: 1rem;
+  color: grey;
+  text-decoration: underline;
+}
 
 .social-network {
   position: absolute;
@@ -556,19 +562,13 @@ main {
   left: 50%;
   transform: translateX(-50%);
 }
-.contact-infos .credits {
-  text-align: center;
-}
-@media screen and (max-width: 740px) {
-  .contact-infos .credits {
-    transform: translateY(20px);
-    font-size: 0.7rem;
-    margin-right: 1rem;
-    grid-area: f;
-  }
-}
-.contact-infos .credits p {
-  font-size: 0.9rem;
+
+.credits {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  color: grey;
+  text-decoration: underline;
 }
 
 .logo {
@@ -578,6 +578,7 @@ main {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  transition: all 0.75s ease-in-out;
 }
 .logo:hover {
   font-size: 1.5rem;

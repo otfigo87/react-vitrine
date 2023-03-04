@@ -23,10 +23,13 @@ const Contact = () => {
   return (
     <main>
       <Mouse />
-      <motion.div className="contact"
-         initial="out" exit="out" 
-         animate="in" variants={pageTrans}
-         transition={{duration: 0.5}}
+      <motion.div
+        className="contact"
+        initial="out"
+        exit="out"
+        animate="in"
+        variants={pageTrans}
+        transition={{ duration: 0.5 }}
       >
         <Navigation />
         <Logo />
@@ -67,11 +70,11 @@ const Contact = () => {
             </div>
           </div>
           <SocialMedia />
-          <div className="credits">
-            <p>Otmane Aatik</p>
-          </div>
         </div>
         <Buttons left={"/project4"} />
+        <div className="credits">
+          <p>Otmane Aatik</p>
+        </div>
       </motion.div>
     </main>
   );

@@ -251,17 +251,11 @@
       transform: translateX(-50%);
     }
   }
-  .credits {
-    text-align: center;
-
-    @media screen and (max-width: 740px) {
-      transform: translateY(20px);
-      font-size: 0.7rem;
-      margin-right: 1rem;
-      grid-area: f;
-    }
-    p {
-      font-size: 0.9rem;
-    }
-  }
+}
+.credits {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  color: grey;
+  text-decoration: underline;
 }

@@ -3,6 +3,7 @@
   font-family: $font-2;
   font-size: 1.2rem;
   user-select: none;
+  transition: all .75s ease-in-out;
   &:hover{
     font-size: 1.5rem;
   }
